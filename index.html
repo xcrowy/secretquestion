@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Question!</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 id="h1">Will you be my Valentine?</h1>
+    </header>
+    <main>
+        <video id="yesVideo" style="display: none;" controls loop>
+            <source src="yes.mov" type="video/mp4">
+        </video>
+
+        <div class="button-container">
+            <button class="button button1" id="yesButton" onclick="handleYesClick()">Yes!</button>
+            <button class="button button2" id="noButton" onmouseover="handleNoClick()">No...</button>
+        </div>
+    </main>
+</body>
+</html>
